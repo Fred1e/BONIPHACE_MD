@@ -7,8 +7,8 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="ngoyaibraah@gmail.com"
-global.location="Nairobi,Kenya."
+global.email ="frediezra60@gmail.com"
+global.location="Dar Es Salam,Tanzania."
 
 
 global.mongodb= process.env.MONGODB_URI || ""
@@ -17,9 +17,9 @@ global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Kenya";
-global.github=process.env.GITHUB|| "https://github.com/ibrahimaitech/BLACK-PANTHER-MD/tree/main";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaiMm7d4yltT51HS1T1G";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaiMm7d4yltT51HS1T1G" ; 
+global.github=process.env.GITHUB|| "https://github.com/Fred1e/BONIPHACE_MD/tree/main";
+global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VafeCKHKmCPMtW3bFA08";
+global.website=process.env.GURL || "https://whatsapp.com/channel/0029VafeCKHKmCPMtW3bFA08" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/3556d79e9af1e330d96b3.jpg" ; // SET LOGO FOR IMAGE 
 
 
@@ -42,7 +42,7 @@ global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to open logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file/3556d79e9af1e330d96b3.jpg" // BLACKPANTHER Theme Images
+global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file/3556d79e9af1e330d96b3.jpg" // BONIPHACE Theme Images
 global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
@@ -72,7 +72,7 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.1",
-  caption : process.env.CAPTION || "BONIPHACE-MD✅" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "BONIPHACE-MD✅" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ BONIPHACE²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • FREDIE ᴛᴇᴄʜ』*\n youtube.com/@freeonlinetvT1techinfo0"),
  
   author : process.env.PACK_AUTHER|| "Mr Boniphace",
   packname: process.env.PACK_NAME || "🐯",
